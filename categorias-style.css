@@ -1,0 +1,185 @@
+.Card-Pecas {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.616);
+    color: black ;
+}
+
+#Img-Categorias-pecas {
+    height: 150px;
+    width: 150px;
+    height: auto;
+    margin-bottom: 8px;
+    background-color: white ;
+    border-radius: 6px ;
+}
+
+#Botao-Escolher-pecas {
+    border: none;
+    border-radius: 6px;
+    color: black;
+    background-color: rgb(245, 68, 221);
+    height: 40px;
+    width: 80% ;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+#Botao-Escolher-pecas:hover {
+    background-color: #ff50f0;
+    color: whitesmoke ;
+}
+
+span{
+    font-size:25px ;
+    color: green ;
+}
+
+#Letras{
+    font-size: 40px ;
+}
+
+
+/* Define o layout da div .opcoes */
+.opcoes {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    width: 100%;
+    height: 50px;
+    padding: 12px;
+    box-sizing: border-box; 
+
+    
+    padding: 12px ;
+}
+
+.pesquisar {
+    display: flex;
+    align-items: center; 
+    margin: 0 auto; 
+    gap: 12px ;
+}
+
+#pesquisar-input {
+    font-size: 20px;
+    height: 50px;
+    width: 650px;
+    border-radius: 8px;
+    border: none ;
+    box-sizing: border-box; 
+}
+
+#pesquisar-input:hover {
+    border-radius: 6px;
+    border: 1px solid black ;
+}
+
+#procurar-input {
+    height: 50px;
+    width: 50px;
+    border-radius: 12px;
+    border: none ;
+    cursor: pointer;
+
+    background-image: url('../imagens/lupa-icon.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+
+    box-sizing: border-box; 
+}
+
+#procurar-input:hover{
+    height: 45px;
+    width: 45px;
+    border:none;
+
+    transform: scale(1.05);
+}
+
+
+
+#filtro{
+    height: 50px;
+    width: 50px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background-image: url('../imagens/filtro-icon.png'); 
+    text-align: center ;
+    background-size:cover;
+    background-repeat: no-repeat; 
+    
+}
+
+#filtro:hover{
+    height: 45px;
+    width: 45px;
+    border:none;
+
+    transform: scale(1.05);
+}
+
+
+.btn-voltar {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #3c0044;
+    background-color: #fdfdfd;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.btn-voltar:hover {
+    background-color: #8804766b;
+    transform: scale(1.05);
+    color: white ;
+}
+
+
+.btn-voltar::before {
+    content: '←'; 
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+#voltar-pagina:before{
+    content: '←' ;
+}
+#proxima-pagina:before{
+    content: '→' ;
+
+}
+
+#voltar-pagina , #proxima-pagina{
+    height: 5vh ;
+    width: 10vh ;
+    font-size: 15px ;
+    border: none ;
+    border-radius: 5px ;
+    cursor: pointer ;
+}
+
+
+#mostrar-numero-pagina{
+    height: 5px  ;
+    width: 10vh ;
+    font-size: 15px ;
+    border: none ;
+    border-radius: 5px ;
+}
+
+
+.paginas-div{
+    background-color: red ;
+
+}
